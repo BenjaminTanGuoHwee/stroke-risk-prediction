@@ -36,7 +36,7 @@ with st.form("risk_form"):
     gender = st.selectbox("Gender", ["--Please Select One--", "Male", "Female"], index=0)
     st.header("B. Clinical Measurements")
     weight = st.slider("Weight (kg)", min_value=0.0, max_value=130.0, value=67.0, step=0.1)
-    height = st.slider("Height (cm)", min_value=0.0, max_value=330.0, value=167.0, step=1.0)
+    height = st.slider("Height (cm)", min_value=0.0, max_value=270.0, value=167.0, step=1.0)
     st.header("C. Medical History")
     hypertension = st.selectbox("Hypertension (Select True if patient has hypertension)", ["--Please Select One--", False, True], index=0)
     heart_disease = st.selectbox("Heart Disease (Select True if patient has heart disease)", ["--Please Select One--", False, True], index=0)
