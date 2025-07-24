@@ -24,7 +24,7 @@ with st.expander("⚠️ **Important Disclaimer**", expanded=True):
     st.warning("""
     - This tool provides **preliminary risk assessment only** and is not a substitute for professional medical evaluation.  
     - The underlying model uses statistical and machine learning techniques to estimate stroke risk based on input data. **No prediction is 100% accurate**, false positives and false negatives may occur. 
-    - Always consult a qualified healthcare provider for any medical concerns. **By proceeding, you accept our [terms of use](#)**.""")
+    - Always consult a qualified healthcare provider for any medical concerns.""")
 
 st.divider()
 
